@@ -1,7 +1,12 @@
-* header{
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic;
+}  
+header{
     color: blue;
     background: gray;
 }
-* body{
+body{
     background: yellow;
 }

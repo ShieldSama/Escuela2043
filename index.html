@@ -15,12 +15,12 @@
                 document.form1.result.value=(a+b+c+d+e);
             }
             function pf2(){
-                document.form1.text1.value=(0);
-                document.form1.text2.value=(0);
-                document.form1.text3.value=(0);
-                document.form1.text4.value=(0);
-                document.form1.text5.value=(0);
-                document.form1.result.value=(0);
+                document.form1.text1.value=("");
+                document.form1.text2.value=("");
+                document.form1.text3.value=("");
+                document.form1.text4.value=("");
+                document.form1.text5.value=("");
+                document.form1.result.value=("");
             }
         </script>
     </head>
@@ -29,14 +29,14 @@
             <h1>Encabezado</h1>
         </header>
         <form name="form1">
-            <div>N° 1 <input type="number" id="text1" value="0"></div><br>
-            <div>N° 2 <input type="number" id="text2" value="0"></div><br>
-            <div>N° 3 <input type="number" id="text3" value="0"></div><br>
-            <div>N° 4 <input type="number" id="text4" value="0"></div><br>
-            <div>N° 5 <input type="number" id="text5" value="0"></div><br>
+            <div>N° 1 <input type="number" id="text1"></div><br>
+            <div>N° 2 <input type="number" id="text2"></div><br>
+            <div>N° 3 <input type="number" id="text3"></div><br>
+            <div>N° 4 <input type="number" id="text4"></div><br>
+            <div>N° 5 <input type="number" id="text5"></div><br>
             <div><input type="button" value="sumar" onclick="pf1();"></div>
             <div><input type="button" value="limpiar" onclick="pf2();"></div>
-            <div>Resultado: <input type="text" value="0" id="result" disabled></div>
+            <div>Resultado: <input type="text" value="" id="result" disabled></div>
         </form>
     </body>
 </html>
